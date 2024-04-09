@@ -661,36 +661,6 @@ function App() {
       })
   }
 
-  /*
-  const handleClick2 = async (e) => {
-    e.preventDefault();
-    //lock button
-    txt_QRBank_btn = "Đang xử lý";
-    setQRBankEnabled(false);
-
-    GenerateBankQRCode(function (QRdata) {
-      if (debugging) {
-        console.log('QR Response:');
-        console.log(QRdata);
-      }
-
-      payonQRCode = `data:image/png;base64,${QRdata["data"]["qrcode_image"]}`;
-      setQRCode(payonQRCode);
-
-      //toggle visibility
-      setVisible2(current => !current);
-      setVisible3(current => !current);
-
-      InsertNewTicketBooking(function (data) {
-        if (debugging) {
-          console.log('Insert Response:');
-          console.log(data);
-        }
-      })
-    });
-  };
-  */
-
   const handleClick3 = () => {
     if (!visible4) {
       setVisible4(!visible4);
@@ -952,98 +922,6 @@ function App() {
     });
   }
 
-  /*
-  //Tạo một ticket mới
-  function InsertNewTicketBooking(callback) {
-    //Tạo body
-    var requestBody = {
-      "data": {
-        "Payment_Status": 'Waiting',
-        "First_name": formData["First_name"],
-        "Last_name": formData["Last_name"],
-        "Mobile": formData["Mobile"],
-        "Gender": formData["Gender"],
-        "Ticket_type": formData["Ticket_type"],
-        "Voucher": formData["Voucher"],
-        "Email": formData["Email"],
-        "Price": formData["Price"],
-        "Ticket_Price": formData["Ticket_price"],
-        "Merchant_Request_Id": formData["Merchant_Request_Id"],
-        "Number_of_Tickets": formData["Number_of_Tickets"],
-        "Event_name": formData["Event_name"],
-        "Event_code": formData["Event_code"],
-        "Payon_QR_String": payonQRCode,
-        "Company": formData["Company"],
-        "ZNS_ID": formData["ZNS_ID"],
-        "Zeptomail_ID": formData["Zeptomail_ID"],
-        "Address": formData["Address"],
-        "Tax_code": formData["Tax_code"],
-        "LayHoaDon": formData["LayHoaDon"],
-        "Position": formData["Position"],
-        // "Company_website": formData["Company_website"],
-        "Chay_radio": formData["Chay_radio"],
-        "Hoivien_radio": formData["Hoivien_radio"],
-        "Error_count": error_count,
-        "Error_log": error_log
-      },
-      "result": {
-        "fields": [
-          "ID", "First_name", "Last_name", "Payon_QR_String"
-        ],
-        "message": true,
-        "tasks": true
-      }
-    };
-
-    $.ajax({
-      url: `/server/ticket_booking_4_2_function/submitTicket?access_token=${accessToken}`,
-      type: "post",
-      data: JSON.stringify(requestBody),
-      contentType: "application/json",
-      success: function (data) {
-        callback(data);
-      },
-      error: function (error) {
-        console.log(error);
-        error_log = error;
-        error_count++;
-        if (error_count < 6) {
-          InsertNewTicketBooking(callback);
-        }
-      }
-    })
-  }
-  */
-
-  /*
-  //Tạo error log
-  function InsertErrorLog(error){
-    var requestBody = {
-      "data": {
-        "Details": error,
-        "Status": "New"
-      },
-      "result": {
-        "fields": [
-          "ID"
-        ],      
-        "message": true,
-        "tasks": true
-      }
-    };
-    
-    $.ajax({
-      url: `/server/ticket_booking_4_2_function/submitErrorLog?access_token=${accessToken}`,
-      type: "post",
-      data: JSON.stringify(requestBody),
-      contentType: "application/json",
-      success: function (data){
-      },
-      error: function(error){
-      }
-    })
-  }*/
-
   function GenerateBankQRCode() {
     return new Promise((resolve, reject) => {
       //Basic Auth Encoding
@@ -1105,69 +983,6 @@ function App() {
       })
     });
   }
-
-  /*
-  //Create Bank QR Code
-  function GenerateBankQRCode(callback){
-    //Basic Auth Encoding
-    var baseEncode = Buffer.from(`${PAYONUSERNAME}:${PAYONPASSWORD}`).toString('base64');
-
-    //Payload Info
-    var requestPayload = {
-      "service_type_code": "PAYNOW",
-      "service_code": "PAYNOW_QRLOCALBANK_DYNAMIC",
-      "method_code": "LOCALBANK",
-      "merchant_id": parseInt(MERCHANTID),
-      "merchant_request_id": formData["Merchant_Request_Id"].toString(),
-      "amount": formData["Price"],
-      "bank_code": formData["bank"],
-      "description": formData["Event_name"],
-      "currency": "VND",
-      "url_redirect": "google.com.vn",
-      "url_notify": "https://ticket-booking-4-1-812297888.catalystserverless.com/server/ticket_booking_4_1_function/webhook",
-      "url_cancel": "google.com.vn",
-      "customer_fullname": `${formData["First_name"]} ${formData["Last_name"]}`,
-      "customer_email": formData["Email"],
-      "customer_mobile": formData["Mobile"]
-    }
-
-    if (debugging) {
-      console.log("Payload");
-      console.log(requestPayload);
-    }
-
-    //Encrypting Payload
-    var encryptedRequestPayload = Encryption(JSON.stringify(requestPayload));
-
-    //MD5 Encrypting
-    var md5RequestPayload = MD5(`${APPID}${encryptedRequestPayload}${PAYONKEY}`);
-
-    //Body to send to Payon
-    var requestBody = {
-      "app_id": APPID,
-      "data": encryptedRequestPayload,
-      "checksum": md5RequestPayload
-    }
-
-    if (debugging) {
-      console.log("Body")
-      console.log(requestBody);
-    }
-    
-    $.ajax({
-      url: `/server/ticket_booking_4_2_function/createBankQRCode?base_encode=${baseEncode}`,
-      type: "post",
-      data: JSON.stringify(requestBody),
-      contentType: "application/json",
-      success: function(data){
-        callback(data);
-      },
-      error: function(error){
-        console.log(error);
-      }
-    })
-  }
-  */
 
   //Encrypt AES 256
   function Encryption(_inputStr) {
