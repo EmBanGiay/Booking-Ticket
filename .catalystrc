@@ -1,0 +1,36 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 2
+  },
+  "actives": {
+    "project": 1,
+    "env": 2
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "18036000000121053",
+      "name": "Ticket-Booking-4-2",
+      "domain": {
+        "id": "10063851566",
+        "name": "ticket-booking-4-2-812297888.development"
+      },
+      "timezone": "Asia/Ho_Chi_Minh",
+      "env": [
+        {
+          "idx": 1,
+          "id": "10063853531",
+          "name": "Production",
+          "type": 1
+        },
+        {
+          "idx": 2,
+          "id": "812297888",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+[debug] [2024-04-09T06:41:16.315Z] : 
+[debug] [2024-04-09T06:41:16.317Z] : ----------------------------------------------------------------------
+[debug] [2024-04-09T06:41:16.317Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-09T06:41:16.317Z] : CLI Version:  1.17.4
+[debug] [2024-04-09T06:41:16.317Z] : Platform:     win32
+[debug] [2024-04-09T06:41:16.318Z] : Node Version: v20.5.1
+[debug] [2024-04-09T06:41:16.318Z] : Time:         Tue Apr 09 2024 13:41:16 GMT+0700 (Indochina Time)
+[debug] [2024-04-09T06:41:16.318Z] : ----------------------------------------------------------------------
+[debug] [2024-04-09T06:41:16.318Z] : 
+[debug] [2024-04-09T06:41:16.923Z] : > authorizing via signed-in user option
+[debug] [2024-04-09T06:41:16.923Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-09T06:41:16.933Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053 
+
+[debug] [2024-04-09T06:41:17.592Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 06:41:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=e67ba877-9159-43c9-a5cd-1da645682d1f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e67ba877-9159-43c9-a5cd-1da645682d1f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T06:41:17.595Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053/environment 
+
+[debug] [2024-04-09T06:41:17.800Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 06:41:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=7817d856-e845-409f-88b9-541abcae6c4a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7817d856-e845-409f-88b9-541abcae6c4a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T06:41:18.007Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-09T06:41:18.229Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 06:41:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=e2201413-f4c0-475b-8e5e-7e8297ab2c71;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e2201413-f4c0-475b-8e5e-7e8297ab2c71;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T06:41:18.231Z] : unknown eol undefined hence skipping check
+[info] [2024-04-09T06:41:20.941Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-09T06:41:20.943Z] : 
+[info] [2024-04-09T06:41:20.944Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-09T06:41:20.944Z] : 
+[info] [2024-04-09T06:41:22.359Z] : 
+[info] [2024-04-09T06:41:22.360Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-09T06:41:22.361Z] : i ticket_booking_5_1: http://localhost:3000/server/ticket_booking_5_1/
+[info] [2024-04-09T06:41:22.361Z] : 
+[info] [2024-04-09T06:41:22.361Z] : 
+[info] [2024-04-09T06:41:22.362Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-09T06:41:22.362Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-09T06:41:22.362Z] : 
+[info] [2024-04-09T06:41:27.523Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T06:41:27.523Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 56:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 61:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 234:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 234:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 515:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 660:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T06:41:27.524Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T06:41:27.524Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2024-04-09T06:41:58.573Z] : > refreshing access token <
+[debug] [2024-04-09T06:41:58.576Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-04-09T06:41:59.171Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 06:41:59 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"keep-alive","set-cookie":["b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/","iamcsr=731e205c-ebaa-4a38-aefe-4a6ffada3277;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=731e205c-ebaa-4a38-aefe-4a6ffada3277;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-09T06:42:04.414Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T06:42:04.658Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T06:42:04.659Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 56:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 61:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 234:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 234:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 515:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 660:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T06:42:04.660Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T06:42:04.660Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T06:45:18.304Z] : 
+change of index.js in ticket_booking_5_1 detected. Preparing your function, please wait...
+[info] [2024-04-09T06:45:19.430Z] : i AdvancedIO[ticket_booking_5_1]: ready!
+[info] [2024-04-09T06:45:19.431Z] : i AdvancedIO[ticket_booking_5_1]: http://localhost:3000/server/ticket_booking_5_1/
+[info] [2024-04-09T06:48:32.636Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T06:48:33.301Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T06:48:33.302Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 56:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 61:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 234:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 234:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 515:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 660:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T06:48:33.302Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T06:48:33.302Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T06:51:34.785Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T06:51:35.272Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T06:51:35.273Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 56:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 61:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 71:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 72:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 234:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 515:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 660:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 759:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 774:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T06:51:35.273Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T06:51:35.273Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T06:53:20.217Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T06:53:20.731Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T06:53:20.733Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 56:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 61:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 71:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 72:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 237:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 518:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 663:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 762:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 777:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T06:53:20.733Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T06:53:20.734Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T06:53:44.910Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T06:53:45.395Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T06:53:45.396Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 56:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 61:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 71:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 72:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 237:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 518:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 663:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 762:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 777:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T06:53:45.397Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T06:53:45.397Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T06:54:56.467Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T06:54:56.985Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T06:54:56.985Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 44:5:    'eventName' is assigned a value but never used                                               no-unused-vars
+  Line 56:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 61:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 235:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 516:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 661:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 760:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+[info] [2024-04-09T06:54:56.986Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T06:54:56.986Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T06:56:55.604Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T06:56:56.110Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T06:56:56.111Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 56:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 61:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 71:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 72:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 236:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 517:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 662:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 761:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 776:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T06:56:56.112Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T06:56:56.112Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:01:18.898Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:01:19.443Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:01:19.445Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 56:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 61:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 71:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 72:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 235:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 516:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 661:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 744:12:  'GetVouchers' is defined but never used                                                      no-unused-vars
+  Line 760:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 775:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T07:01:19.445Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:01:19.445Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:02:03.729Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:02:04.057Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:02:04.059Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 56:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 61:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 71:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 72:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 236:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 517:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 662:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 761:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 776:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T07:02:04.060Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:02:04.060Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:07:21.401Z] : Shutting down server
+[debug] [2024-04-09T07:07:21.409Z] : Connection reset from target URL :  Url {
+  protocol: 'https:',
+  slashes: true,
+  auth: null,
+  host: 'ticket-booking-4-2-812297888.development.catalystserverless.com',
+  port: null,
+  hostname: 'ticket-booking-4-2-812297888.development.catalystserverless.com',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/',
+  path: '/',
+  href: 'https://ticket-booking-4-2-812297888.development.catalystserverless.com/'
+}
+[info] [2024-04-09T07:07:21.485Z] : 
+[info] [2024-04-09T07:07:21.486Z] : √ Shutdown complete
+[debug] [2024-04-09T07:07:21.486Z] : NO ERRORS REGISTERED
+[debug] [2024-04-09T07:07:21.486Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-09T07:07:21.486Z] : TOTAL DURATION OF COMMAND EXEC : 1564575
+[debug] [2024-04-09T07:07:21.500Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-09T07:07:23.098Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:07:22 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=97da3765-3ad3-4dda-9d91-912cc596a584;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=97da3765-3ad3-4dda-9d91-912cc596a584;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=944A0A31A52EFB270E62B2BC701E800B; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-09T07:07:23.099Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-09T07:07:23.100Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-09T07:07:25.265Z] : 
+[debug] [2024-04-09T07:07:25.266Z] : ----------------------------------------------------------------------
+[debug] [2024-04-09T07:07:25.267Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-09T07:07:25.267Z] : CLI Version:  1.17.4
+[debug] [2024-04-09T07:07:25.267Z] : Platform:     win32
+[debug] [2024-04-09T07:07:25.267Z] : Node Version: v20.5.1
+[debug] [2024-04-09T07:07:25.267Z] : Time:         Tue Apr 09 2024 14:07:25 GMT+0700 (Indochina Time)
+[debug] [2024-04-09T07:07:25.268Z] : ----------------------------------------------------------------------
+[debug] [2024-04-09T07:07:25.268Z] : 
+[debug] [2024-04-09T07:07:25.848Z] : > authorizing via signed-in user option
+[debug] [2024-04-09T07:07:25.849Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-09T07:07:25.857Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053 
+
+[debug] [2024-04-09T07:07:26.588Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:07:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=cc5d3a0d-fcb1-4046-afa4-1a0bf10497fd;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=cc5d3a0d-fcb1-4046-afa4-1a0bf10497fd;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T07:07:26.591Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053/environment 
+
+[debug] [2024-04-09T07:07:26.807Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:07:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=e6f4f81f-4438-4bb8-85ab-2fefcefa64e8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e6f4f81f-4438-4bb8-85ab-2fefcefa64e8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T07:07:26.962Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-09T07:07:27.189Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:07:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=df404a9a-7181-4ca6-82f0-c0eeda81b3fb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=df404a9a-7181-4ca6-82f0-c0eeda81b3fb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T07:07:27.190Z] : unknown eol undefined hence skipping check
+[info] [2024-04-09T07:07:29.807Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-09T07:07:29.809Z] : 
+[info] [2024-04-09T07:07:29.810Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-09T07:07:29.810Z] : 
+[info] [2024-04-09T07:07:31.072Z] : 
+[info] [2024-04-09T07:07:31.072Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-09T07:07:31.073Z] : i ticket_booking_5_1: http://localhost:3000/server/ticket_booking_5_1/
+[info] [2024-04-09T07:07:31.073Z] : 
+[info] [2024-04-09T07:07:31.073Z] : 
+[info] [2024-04-09T07:07:31.074Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-09T07:07:31.074Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-09T07:07:31.074Z] : 
+[info] [2024-04-09T07:07:31.453Z] : [react-plugin]: Compiled successfully!
+[info] [2024-04-09T07:07:31.453Z] : [react-plugin]: 
+[info] [2024-04-09T07:07:31.453Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-04-09T07:07:31.454Z] : [react-plugin]: 
+[info] [2024-04-09T07:07:31.454Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-04-09T07:07:31.454Z] : [react-plugin]:   On Your Network:  http://192.168.1.122:3000/app/
+[info] [2024-04-09T07:07:31.455Z] : [react-plugin]: 
+[info] [2024-04-09T07:07:31.455Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-04-09T07:07:31.455Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-04-09T07:07:31.455Z] : [react-plugin]: 
+[info] [2024-04-09T07:09:18.416Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:09:20.582Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:09:20.583Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 57:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 62:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 72:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 73:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 237:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 518:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 663:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 762:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 777:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T07:09:20.584Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:09:20.584Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:09:49.611Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:09:50.083Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:09:50.084Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 57:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 62:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 72:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 73:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 237:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 518:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 663:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 762:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 777:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T07:09:50.085Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:09:50.085Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:09:56.820Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:09:56.950Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:09:56.951Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 37:5:    'array_loai_ve' is assigned a value but never used                                           no-unused-vars
+  Line 38:5:    'array_loai_ve_i' is assigned a value but never used                                         no-unused-vars
+  Line 44:5:    'eventName' is defined but never used                                                        no-unused-vars
+  Line 57:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 62:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 72:26:   'setvisibleOption1' is assigned a value but never used                                       no-unused-vars
+  Line 73:26:   'setvisibleOption2' is assigned a value but never used                                       no-unused-vars
+  Line 237:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 518:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 663:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 762:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+  Line 777:12:  'GetCurrentEvent' is defined but never used                                                  no-unused-vars
+[info] [2024-04-09T07:09:56.952Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:09:56.952Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:11:52.699Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:11:53.375Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:11:53.376Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:    'txt_form_QR1' is assigned a value but never used                                            no-unused-vars
+  Line 19:7:    'txt_form_QR2' is assigned a value but never used                                            no-unused-vars
+  Line 20:7:    'txt_form_QR3' is assigned a value but never used                                            no-unused-vars
+  Line 35:5:    'txt_loai_ve' is assigned a value but never used                                             no-unused-vars
+  Line 44:5:    'eventName' is assigned a value but never used                                               no-unused-vars
+  Line 57:22:   'setSubmitting' is assigned a value but never used                                           no-unused-vars
+  Line 62:23:   'setBtn1Visible' is assigned a value but never used                                          no-unused-vars
+  Line 236:7:   The "" literal is not a valid dependency because it never changes. You can safely remove it  react-hooks/exhaustive-deps
+  Line 517:9:   'handleBlur' is assigned a value but never used                                              no-unused-vars
+  Line 662:9:   'handleClick3' is assigned a value but never used                                            no-unused-vars
+  Line 761:12:  'GetPayon' is defined but never used                                                         no-unused-vars
+[info] [2024-04-09T07:11:53.377Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:11:53.377Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:12:45.486Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:12:46.012Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:12:46.013Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 57:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 62:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 236:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 236:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 517:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 662:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T07:12:46.013Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:12:46.013Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:19:33.617Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:19:34.175Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:19:34.176Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 57:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 62:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 236:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 236:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 517:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 662:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T07:19:34.176Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:19:34.176Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:31:11.603Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:31:12.061Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:31:12.062Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 57:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 62:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 236:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 236:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 517:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 694:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T07:31:12.062Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:31:12.063Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:34:12.238Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:34:12.745Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-09T07:34:12.746Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 947:36:  'data' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-09T07:39:57.459Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:39:57.871Z] : [react-plugin]: Failed to compile.
+
+[info] [2024-04-09T07:39:57.872Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 947:36:  'data' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2024-04-09T07:41:01.280Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:41:01.836Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:41:01.837Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 57:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 62:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 236:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 236:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 517:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 694:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T07:41:01.837Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:41:01.837Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:44:12.490Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:44:13.176Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:44:13.177Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 57:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 62:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 236:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 236:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 517:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 694:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T07:44:13.177Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:44:13.177Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2024-04-09T07:44:13.195Z] : > refreshing access token <
+[debug] [2024-04-09T07:44:13.198Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-04-09T07:44:13.891Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:44:13 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"keep-alive","set-cookie":["b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/","iamcsr=255edb1e-4623-424f-965e-0011342219e6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=255edb1e-4623-424f-965e-0011342219e6;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-09T07:45:31.896Z] : [react-plugin]: Compiling...
+[info] [2024-04-09T07:45:32.506Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2024-04-09T07:45:32.506Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 18:7:   'txt_form_QR1' is assigned a value but never used                                                              no-unused-vars
+  Line 19:7:   'txt_form_QR2' is assigned a value but never used                                                              no-unused-vars
+  Line 20:7:   'txt_form_QR3' is assigned a value but never used                                                              no-unused-vars
+  Line 35:5:   'txt_loai_ve' is assigned a value but never used                                                               no-unused-vars
+  Line 57:22:  'setSubmitting' is assigned a value but never used                                                             no-unused-vars
+  Line 62:23:  'setBtn1Visible' is assigned a value but never used                                                            no-unused-vars
+  Line 236:6:  React Hook useEffect has a missing dependency: 'NoOfTicket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  Line 236:7:  The "" literal is not a valid dependency because it never changes. You can safely remove it                    react-hooks/exhaustive-deps
+  Line 517:9:  'handleBlur' is assigned a value but never used                                                                no-unused-vars
+  Line 694:9:  'handleClick3' is assigned a value but never used                                                              no-unused-vars
+[info] [2024-04-09T07:45:32.506Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2024-04-09T07:45:32.507Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2024-04-09T07:48:06.815Z] : Shutting down server
+[info] [2024-04-09T07:48:06.910Z] : 
+[info] [2024-04-09T07:48:06.912Z] : √ Shutdown complete
+[debug] [2024-04-09T07:48:06.912Z] : NO ERRORS REGISTERED
+[debug] [2024-04-09T07:48:06.912Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-04-09T07:48:06.913Z] : TOTAL DURATION OF COMMAND EXEC : 2441073
+[debug] [2024-04-09T07:48:06.925Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-04-09T07:48:08.414Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:48:08 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"keep-alive","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=ad7cadc6-51ed-4ad4-a4dd-a4a8ed1262a8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ad7cadc6-51ed-4ad4-a4dd-a4a8ed1262a8;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=93D0728812778BCDDCAF922AA2E847F0; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2024-04-09T07:48:08.415Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-04-09T07:48:08.416Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2024-04-09T07:53:14.641Z] : 
+[debug] [2024-04-09T07:53:14.642Z] : ----------------------------------------------------------------------
+[debug] [2024-04-09T07:53:14.642Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-09T07:53:14.643Z] : CLI Version:  1.17.4
+[debug] [2024-04-09T07:53:14.643Z] : Platform:     win32
+[debug] [2024-04-09T07:53:14.643Z] : Node Version: v20.5.1
+[debug] [2024-04-09T07:53:14.643Z] : Time:         Tue Apr 09 2024 14:53:14 GMT+0700 (Indochina Time)
+[debug] [2024-04-09T07:53:14.643Z] : ----------------------------------------------------------------------
+[debug] [2024-04-09T07:53:14.643Z] : 
+[debug] [2024-04-09T07:53:15.272Z] : > authorizing via signed-in user option
+[debug] [2024-04-09T07:53:15.272Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-09T07:53:15.280Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053 
+
+[debug] [2024-04-09T07:53:15.976Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:53:15 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=7f4553cb-1d2c-4f2f-9f0f-16cd0c82a2e3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7f4553cb-1d2c-4f2f-9f0f-16cd0c82a2e3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T07:53:15.978Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053/environment 
+
+[debug] [2024-04-09T07:53:16.202Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:53:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=dd70a26b-3f66-4f21-afd1-7e6e4713e065;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=dd70a26b-3f66-4f21-afd1-7e6e4713e065;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T07:53:16.368Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/18036000000121053/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-09T07:53:16.651Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 07:53:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=d0d9e644-4f57-4abc-a910-ca6ecec3101d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d0d9e644-4f57-4abc-a910-ca6ecec3101d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T07:53:16.652Z] : unknown eol undefined hence skipping check
+[info] [2024-04-09T07:53:19.471Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-04-09T07:53:19.472Z] : 
+[info] [2024-04-09T07:53:19.473Z] : i Client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-04-09T07:53:19.473Z] : 
+[info] [2024-04-09T07:53:20.870Z] : 
+[info] [2024-04-09T07:53:20.871Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-09T07:53:20.872Z] : i ticket_booking_5_1: http://localhost:3000/server/ticket_booking_5_1/
+[info] [2024-04-09T07:53:20.872Z] : 
+[info] [2024-04-09T07:53:20.872Z] : 
+[info] [2024-04-09T07:53:20.873Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-09T07:53:20.873Z] : i client[react-app]: http://localhost:3000/app/
+[info] [2024-04-09T07:53:20.873Z] : 
+[info] [2024-04-09T07:53:21.275Z] : [react-plugin]: Compiled successfully!
+[info] [2024-04-09T07:53:21.276Z] : [react-plugin]: 
+[info] [2024-04-09T07:53:21.276Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2024-04-09T07:53:21.276Z] : [react-plugin]: 
+[info] [2024-04-09T07:53:21.276Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-04-09T07:53:21.276Z] : [react-plugin]:   On Your Network:  http://192.168.1.122:3000/app/
+[info] [2024-04-09T07:53:21.277Z] : [react-plugin]: 
+[info] [2024-04-09T07:53:21.277Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-04-09T07:53:21.277Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-04-09T07:53:21.277Z] : [react-plugin]: 
