@@ -5,7 +5,7 @@ import './App.css';
 import $ from 'jquery';
 import CurrencyInput from 'react-currency-input-field';
 import { Buffer } from 'buffer';
-//const utils = require("./utils/utils");
+const utils = require("../utils/utils");
 var AES256 = require('aes-everywhere');
 var MD5 = require('md5');
 
@@ -42,7 +42,7 @@ var error_log = "success!";
 var Private;
 var txt_QRBank_btn = "Lấy QR Code";
 var eventName;
-const serverDomain = 'ticket_booking_5_1';
+const serverDomain = utils.Server_Domain;
 
 const formReducer = (state, event) => {
   return {

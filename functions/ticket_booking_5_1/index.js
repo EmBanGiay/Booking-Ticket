@@ -30,6 +30,7 @@ const PAYONHOST = 'sdk.payon.vn';
 const REFRESHTOKEN = utils.Refresh_Token;
 const CLIENTID = utils.Client_Id;
 const CLIENTSECRET = utils.Client_Secret;
+const APPURI = utils.APP_URI;
 const PORT = process.env.PORT || 3001;
 
 
@@ -101,7 +102,7 @@ app.post("/generateToken", async (req, res) => {
 
 app.post("/getVoucher", async (req, res) => {
 	try {
-		let urlPath = '/api/v2/firstsolution/ticket-booking/report/All_Vouchers' +
+		let urlPath = `/api/v2/${APPURI}/report/All_Vouchers` +
 			`?criteria=%28Voucher%3D%3D%22${req.query.coupon_name}%22%29%26%26%28Status%3D%3D%22Active%22%29`;
 
 		const options = {
@@ -138,7 +139,7 @@ app.post("/getVoucher", async (req, res) => {
 
 app.post("/submitTicket", async (req, res) => {
 	try {
-		let urlPath = '/api/v2/firstsolution/ticket-booking/form/Ticket_Booking';
+		let urlPath = `/api/v2/${APPURI}/form/Ticket_Booking`;
 
 		const options = {
 			hostname: ZCHOST,
@@ -170,7 +171,7 @@ app.post("/submitTicket", async (req, res) => {
 
 app.post("/getEvent", async (req, res) => {
 	try {
-		let urlPath = `/api/v2/firstsolution/ticket-booking/report/Events_Report/${req.query.event_Id}`;
+		let urlPath = `/api/v2/${APPURI}/report/Events_Report/${req.query.event_Id}`;
 
 		const options = {
 			hostname: ZCHOST,
@@ -243,7 +244,7 @@ app.get("/", async (req, res) => {
 
 app.post("/getVouchers", async (req, res) => {
 	try {
-		let urlPath = `/api/v2/firstsolution/ticket-booking/report/All_Vouchers` +
+		let urlPath = `/api/v2/${APPURI}/report/All_Vouchers` +
 			`?criteria=%28Status%3D%3D%22Active%22%29%26%26%28Event_lookup%3D%3D${req.query.eventId}%29`;
 
 		const options = {
@@ -280,7 +281,7 @@ app.post("/getVouchers", async (req, res) => {
 
 app.post("/getPayon", async (req, res) => {
 	try {
-		let urlPath = `/api/v2/firstsolution/ticket-booking/report/Payon_Report/${req.query.payon_Id}`;
+		let urlPath = `/api/v2/${APPURI}/report/Payon_Report/${req.query.payon_Id}`;
 
 		const options = {
 			hostname: ZCHOST,
@@ -316,7 +317,7 @@ app.post("/getPayon", async (req, res) => {
 
 app.post("/submitErrorLog", async (req, res) => {
 	try {
-		let urlPath = '/api/v2/firstsolution/ticket-booking/form/Error_logs';
+		let urlPath = `/api/v2/${APPURI}/form/Error_logs`;
 
 		const options = {
 			hostname: ZCHOST,
